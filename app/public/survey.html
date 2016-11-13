@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
     <title>The Friend Finder</title>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -9,9 +10,199 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
 
-  </head>
-  <body>
+<body>
+    <div class="container">
+        <h2>Survey Questions</h2>
+        <hr>
+        <h3><strong>About You</strong></h3>
+        <h4>Name (Required)</h4>
+        <input type="text" name="" id="name" class="form-control" required="">
+        <h4>Link to Photo Image (Required)</h4>
+        <input type="text" name="" id="photo" class="form-control" required="">
+        <hr>
+        <h3><strong>I see myself as someone who...</strong></h3>
+        <br>
+        <h4>1.  ...Is Popular</h4>
+        <div class="input-group" role="group" aria-label="..." id="q1">
+            <p>
+                <input type="radio" name="q1" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q1" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q1" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q1" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q1" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>2.  ...Is not selfish and willing to help others when needed!</h4>
+        <div class="input-group" role="group" aria-label="..." id="q2">
+            <p>
+                <input type="radio" name="q2" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q2" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q2" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q2" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q2" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>3.  ...Is chill, handles stress well</h4>
+        <div class="input-group" role="group" aria-label="..." id="q3">
+            <p>
+                <input type="radio" name="q3" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q3" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q3" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q3" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q3" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>4.  ..Is full of excitement</h4>
+        <div class="input-group" role="group" aria-label="..." id="q4">
+            <p>
+                <input type="radio" name="q4" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q4" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q4" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q4" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q4" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>5.   ...Has a forgiving nature</h4>
+        <div class="input-group" role="group" aria-label="..." id="q5">
+            <p>
+                <input type="radio" name="q5" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q5" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q5" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q5" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q5" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>6.  ...Worries about others well being</h4>
+        <div class="input-group" role="group" aria-label="..." id="q6">
+            <p>
+                <input type="radio" name="q6" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q6" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q6" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q6" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q6" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>7.  ...Is trustingworthy</h4>
+        <div class="input-group" role="group" aria-label="..." id="q7">
+            <p>
+                <input type="radio" name="q7" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q7" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q7" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q7" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q7" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>8.  ...that can be bored at times</h4>
+        <div class="input-group" role="group" aria-label="..." id="q8">
+            <p>
+                <input type="radio" name="q8" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q8" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q8" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q8" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q8" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>9.  ...Has an extroverted personality</h4>
+        <div class="input-group" role="group" aria-label="..." id="q9">
+            <p>
+                <input type="radio" name="q9" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q9" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q9" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q9" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q9" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <h4>10.  ...Is conceided</h4>
+        <div class="input-group" role="group" aria-label="..." id="q10">
+            <p>
+                <input type="radio" name="q10" value="1"> 1 (Strongly Disagree)</p>
+            <p>
+                <input type="radio" name="q10" value="2"> 2</p>
+            <p>
+                <input type="radio" name="q10" value="3"> 3</p>
+            <p>
+                <input type="radio" name="q10" value="4"> 4</p>
+            <p>
+                <input type="radio" name="q10" value="5"> 5 (Strongly Agree)</p>
+        </div>
+        <br>
+        <br>
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit
+        </button>
+        <hr>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a></p>
+            </div>
+        </footer>
+    </div>
+    <!-- Modal -->
+    <div id="resultsModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="matchName"></h2>
+                    <img id="matchImg" src="" alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $("#submit").on("click", function() {
+            var userData = {
+                name: $("#name").val(),
+                photo: $("#photo").val(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+            };
+            var currentURL = window.location.origin;
+            // AJAX post the data to the friends API.
+            $.post(currentURL + "/api/friends", userData, function(data) {
+                // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+                $("#matchName").text(data.name);
+                $('#matchImg').attr("src", data.photo);
+                // Show the modal with the best match
+                $("#resultsModal").modal('toggle');
+            });
+        });
+    </script>
+</body>
 
-  </body>
 </html>
