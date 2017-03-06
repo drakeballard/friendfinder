@@ -1,9 +1,14 @@
 // setting a value for the list of comparison
-var friendFindComparison = [
+var friends = [
   {
     name:"Tony Stark",
     picture:"https://www.xda-developers.com/files/2016/03/Robert-Downey-Jr-in-Iron-Man-2-Armor.jpg",
     score:[
+      "4",
+      "1",
+      "3",
+      "5",
+      "2",
       "4",
       "1",
       "3",
@@ -20,7 +25,12 @@ var friendFindComparison = [
       "5",
       "4",
       "3",
-      "2"
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -33,7 +43,12 @@ var friendFindComparison = [
       "1",
       "4",
       "3",
-      "2"
+      "2",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -46,7 +61,12 @@ var friendFindComparison = [
       "4",
       "3",
       "1",
-      "5"
+      "5",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -59,7 +79,12 @@ var friendFindComparison = [
       "2",
       "1",
       "3",
-      "5"
+      "5",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -72,7 +97,12 @@ var friendFindComparison = [
       "1",
       "4",
       "5",
-      "3"
+      "3",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -85,7 +115,12 @@ var friendFindComparison = [
       "2",
       "3",
       "5",
-      "1"
+      "1",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -98,7 +133,12 @@ var friendFindComparison = [
       "2",
       "5",
       "3",
-      "1"
+      "1",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -111,7 +151,12 @@ var friendFindComparison = [
       "5",
       "3",
       "1",
-      "4"
+      "4",
+      "",
+      "",
+      "",
+      "",
+      ""
     ]
 
   },
@@ -119,4 +164,4 @@ var friendFindComparison = [
 ];
 
 // This is the array that we will export this to
-module.exports = friendFindComparison;
+module.exports = friends;
