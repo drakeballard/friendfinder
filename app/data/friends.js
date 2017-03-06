@@ -81,16 +81,11 @@ var friendFindComparison = [
     name:"Nick Fury",
     picture:"https://images.moviepilot.com/image/upload/c_fill,h_470,q_auto:good,w_620/tmpmjgnbpmlu1djodtv4.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "4",
+      "2",
+      "3",
+      "5",
+      "1"
     ]
 
   },
@@ -99,16 +94,11 @@ var friendFindComparison = [
     name:"Natasha Romanoff",
     picture:"https://static1.squarespace.com/static/53323bb4e4b0cebc6a28ffa2/t/57ff8de4e6f2e1a3ef801994/1476365802937/?format=750w",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "4",
+      "2",
+      "5",
+      "3",
+      "1"
     ]
 
   },
@@ -117,19 +107,16 @@ var friendFindComparison = [
     name:"Clint Barton",
     picture:"http://static2.comicvine.com/uploads/original/11/113509/4411572-hawkeye+2.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "2",
+      "5",
+      "3",
+      "1",
+      "4"
     ]
 
   },
 
-]
+];
+
+// This is the array that we will export this to
 module.exports = friendFindComparison;
