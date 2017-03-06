@@ -4,16 +4,11 @@ var friendFindComparison = [
     name:"Tony Stark",
     picture:"https://www.xda-developers.com/files/2016/03/Robert-Downey-Jr-in-Iron-Man-2-Armor.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "4",
+      "1",
+      "3",
+      "5",
+      "2"
     ]
 
   },
@@ -21,16 +16,11 @@ var friendFindComparison = [
     name:"Steve Rogers",
     picture:"http://i.annihil.us/u/prod/marvel/movies/civilwar/images/captainamerica_hero.png",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "1",
+      "5",
+      "4",
+      "3",
+      "2"
     ]
 
   },
@@ -39,16 +29,11 @@ var friendFindComparison = [
     name:"Bruce Banner",
     picture:"http://img.cinemablend.com/cb/3/f/e/e/3/7/3fee37dcfa24d7df1eb34eeddd051cf47e6cb0151d82ec2c88c9331f4ff6cd1a.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "5",
+      "1",
+      "4",
+      "3",
+      "2"
     ]
 
   },
@@ -57,16 +42,11 @@ var friendFindComparison = [
     name:"Thor",
     picture:"http://img.cinemablend.com/quill/b/e/e/0/e/f/bee0ef8beb8cc11ced998fc20ec49c128671dc1d.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "2",
+      "4",
+      "3",
+      "1",
+      "5"
     ]
 
   },
@@ -75,16 +55,11 @@ var friendFindComparison = [
     name:"Scott Lang",
     picture:"http://turntherightcorner.com/wp-content/uploads/2015/04/ant-man-movie-screenshot-scott-lang-paul-rudd-suit-21.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "4",
+      "2",
+      "1",
+      "3",
+      "5"
     ]
 
   },
@@ -93,16 +68,11 @@ var friendFindComparison = [
     name:"Peter Parker",
     picture:"http://wide-wallpapers.net/download/peter-parker-wide-wallpaper-1280x800.jpg",
     score:[
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
+      "2",
+      "1",
+      "4",
+      "5",
+      "3"
     ]
 
   },
